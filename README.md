@@ -1,13 +1,10 @@
 devenv-py
 ==
-Pycharm + docker のお手軽開発環境
+Pycharm + docker で Python お手軽開発環境構築
 
 ### コンテナの作成
 ```
-# build
 docker build ./ -t devenv-py:1.0
-
-# run
 docker run -d --rm --name [CONTAINER NAME] -p 2222:22 devenv-py:1.0
 ```
 
