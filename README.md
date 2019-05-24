@@ -1,6 +1,6 @@
 devenv-py
 ==
-Pycharm + docker で Python お手軽開発環境構築
+Pycharm + docker で Python デバッグ環境構築
 
 ### コンテナの作成
 ```
